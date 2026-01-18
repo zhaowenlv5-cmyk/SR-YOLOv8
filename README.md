@@ -19,20 +19,16 @@ An end-to-end small traffic sign detection framework that incorporates **Super-R
 ---
 
 ## 🧠 Framework
-<img src="pipeline1.png" width="1000"/>
+<img width="1200" height="649" alt="pipeline1" src="https://github.com/user-attachments/assets/fdcee413-4cfb-4a1a-b573-b8b16943248d" />
 
 ---
 
 ## 🔍 Key Features
 - 🎯 Joint SR reconstruction and detection
-- 🧠 Multi-task learning paradigm
-- 📦 Small traffic sign focused
+- 🧠 Multi-task learning 
+- 📦 Small traffic sign
 - ⚡ End-to-end training
 
----
 
-## 🏋️ Training
-```bash
-python tools/train.py configs/sr_yolov8.py
 
 
