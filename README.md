@@ -18,8 +18,8 @@ An end-to-end small traffic sign detection framework that incorporates **Super-R
 
 ## 🔍 Key Features
 - 🎯 Joint SR reconstruction and detection
-- 🧠 Multi-task learning 
 - 📦 Small traffic sign
+- 🧠 Multi-task learning 
 - ⚡ End-to-end training
 
 
