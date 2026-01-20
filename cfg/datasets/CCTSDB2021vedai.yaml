@@ -1,6 +1,0 @@
-train: D:/BaiduNetdiskDownload/CCTSDB2021/images/train
-val: D:/BaiduNetdiskDownload/CCTSDB2021/images/test
-test: D:/BaiduNetdiskDownload/CCTSDB2021/images/test
-
-nc: 3
-names: ['mandatory','prohibitory', 'warning']
