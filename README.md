@@ -96,7 +96,7 @@ COMPARISON RESULTS ON GTSDB (%)
 
 ## Contact
 - If you have any questions or suggestions, feel free to contact me.
-- Email:zhaowenlv111@gmail.com;
+- Email: zhaowenlv111@gmail.com;
 
   ❤️ ❤️ We sincerely appreciate the insightful feedback provided by Editors and Reviewers. ❤️ ❤️
 
