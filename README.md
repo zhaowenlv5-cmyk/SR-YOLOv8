@@ -16,7 +16,7 @@ An end-to-end small traffic sign detection framework that incorporates **Super-R
 
 ---
 ## 🏃 Keep updating 🏃:
-- Trained model of SR-YOLOv8 on the CCTSDB2021 has been released ([CCTSDB2021.pt](https://github.com/zhaowenlv5-cmyk/SR-YOLOv8/releases/tag/pretrained_weight).
+- Trained model of SR-YOLOv8 on the CCTSDB2021 has been released ([CCTSDB2021.pt](https://github.com/zhaowenlv5-cmyk/SR-YOLOv8/releases/tag/pretrained_weight)).
 - Training and testing code of SR-YOLOv8 has been released.
 - Configuration file for SR-YOLOv8 has been released ([SRYOLOv8.yaml](SRyolov8.yaml)).
 - Evaluation results of SR-YOLOv8 have been released.
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 - Training: Please download the traffic sign training and testing sets: [CCTSDB2021 ](https://github.com/csust7zhangjm/CCTSDB2021), [TT100k](https://cg.cs.tsinghua.edu.cn/traffic-sign), [GTSDB](https://benchmark.ini.rub.de/gtsdb_dataset.html).
 - Fast Training: Download the [pre-trained model]() of SR-YOLOv8. Put it into <pretrained_models>.
 - Run <train.py> to train SR-YOLOv8.
-- we have also released the well-trained SR-YOLOv8 model on the CCTSDB2021 dataset ([CCTSDB2021.pt](https://github.com/zhaowenlv5-cmyk/SR-YOLOv8/releases/tag/pretrained_weight).
+- we have also released the well-trained SR-YOLOv8 model on the CCTSDB2021 dataset ([CCTSDB2021.pt](https://github.com/zhaowenlv5-cmyk/SR-YOLOv8/releases/tag/pretrained_weight)).
 - Testing: Testing: Run <test.py> for testing.
 - Evaluating: Please download the evaluation benchmark [review_object_detection_metrics](https://github.com/rafaelpadilla/review_object_detection_metrics) for more accurate evaluation.
 
