@@ -15,17 +15,26 @@ An end-to-end small traffic sign detection framework that incorporates **Super-R
 <img width="1200" height="649" alt="pipeline1" src="https://github.com/user-attachments/assets/fdcee413-4cfb-4a1a-b573-b8b16943248d" />
 
 ---
-
-## 🔍 Key Features
-- 🎯 Joint SR reconstruction and detection
-- 📦 Small traffic sign
-- 🧠 Multi-task paradigm
-- ⚡ End-to-end learning
+## 🏃 Keep updating 🏃:
+- Trained model of SR-YOLOv8 on the CCTSDB2021 has been released.
+- Training and testing code of SR-YOLOv8 has been released.
+- Configuration file for SR-YOLOv8 has been released ([config](SR-yolov8.yaml)).
+- Evaluation results of SR-YOLOv8 have been released.
 
 ---
-## 🏃 Keep updating 🏃:
-- Trained model of SR-YOLOv8 has been released.
-- Training and testing code of SR-YOLOv8 has been released.
+## Requirements
+-To install requirements:
+```bash
+pip install -r requirements.txt
+
+## Usage
+-Training: Please download the traffic sign training and testing sets: CCTSDB2021 ([config](https://github.com/csust7zhangjm/CCTSDB2021)), TT100k ([config]((https://cg.cs.tsinghua.edu.cn/traffic-sign)), GTSDB([config](https://benchmark.ini.rub.de/gtsdb_dataset.html)).
+-Fast Training: Download the pre-trained model of ProFiT. Put it into <pretrained_models>.
+
+Run <tracking/train.py> to train ProFiT.
+
+
+
 
 ---
 COMPARISON RESULTS ON CCTSDB2021 (%)
