@@ -16,7 +16,6 @@ An end-to-end small traffic sign detection framework that incorporates **Super-R
 
 ---
 ## 🏃 Keep updating 🏃:
-- Trained model of SR-YOLOv8 on the CCTSDB2021 has been released ([CCTSDB2021.pt](https://github.com/zhaowenlv5-cmyk/SR-YOLOv8/releases/tag/pretrained_weight)).
 - Training and testing code of SR-YOLOv8 has been released.
 - Configuration file for SR-YOLOv8 has been released ([SRYOLOv8.yaml](SRyolov8.yaml)).
 - Evaluation results of SR-YOLOv8 have been released.
@@ -87,13 +86,13 @@ COMPARISON RESULTS ON GTSDB (%)
 |  | TPH-YOLOv5s | ICCV 2021 | 76.74 | 95.80 | 91.68 | 69.01 | 82.14 | 80.54 |
 |  | YOLOv6s | arXiv 2022 | 73.80 | 91.30 | 86.40 | 53.10 | 83.10 | 88.30 |
 |  | YOLOv7l | CVPR 2023 | 53.28 | 72.86 | 64.52 | 26.51 | 64.60 | 78.73 |
-|  | DiffusionDet | ICCV 2023 | 76.00 | 92.40 | 87.90 | 57.20 | 84.60 | 97.50 |
+|  | DiffusionDet | ICCV 2023 | 76.00 | 92.40 | 87.90 | 57.20 | 84.60 | **97.50** |
 |  | SuperYOLO | TGRS 2024 | 78.02 | 96.34 | 92.87 | 62.52 | 85.21 | 89.58 |
 |  | YOLO-MS | TPAMI 2025 | 74.90 | 93.80 | 87.20 | 52.00 | 84.10 | 97.90 |
 |  | YOLO-TS | TITS 2025 | 77.44 | 97.57 | 94.18 | 63.07 | 84.10 | 82.00 |
 |  | YOLO-LLTS | TIM 2025 | 74.00 | 96.53 | 92.03 | 63.79 | 79.53 | 69.94 |
-|  | YOLOv8 (baseline) | 2023 | <ins>79.07<ins> | <ins>97.95<ins> | <ins>94.35<ins> | <ins>66.82<ins> | <ins>84.98<ins> | <ins>91.29<ins> |
-|  | **SR-YOLOv8s (ours)** | - | **84.35** | **98.76** | **97.74** | **74.94** | **88.10** | **96.28** |
+|  | YOLOv8 (baseline) | 2023 | <ins>79.07<ins> | <ins>97.95<ins> | <ins>94.35<ins> | <ins>66.82<ins> | <ins>84.98<ins> | 91.29 |
+|  | **SR-YOLOv8s (ours)** | - | **84.35** | **98.76** | **97.74** | **74.94** | **88.10** | <ins>96.28<ins> |
 
 ## Contact
 - If you have any questions or suggestions, feel free to contact me.
