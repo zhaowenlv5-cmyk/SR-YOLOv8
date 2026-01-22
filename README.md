@@ -30,8 +30,8 @@ pip install -r requirements.txt
 ---
 
 ## Usage
--Training: Please download the traffic sign training and testing sets: CCTSDB2021 ([config](https://github.com/csust7zhangjm/CCTSDB2021)), TT100k ([config]((https://cg.cs.tsinghua.edu.cn/traffic-sign)), GTSDB([config](https://benchmark.ini.rub.de/gtsdb_dataset.html)).
--Fast Training: Download the pre-trained model of SR-YOLOv8. Put it into <pretrained_models>.
+-Training: Please download the traffic sign training and testing sets: [CCTSDB2021 ](https://github.com/csust7zhangjm/CCTSDB2021), [TT100k]((https://cg.cs.tsinghua.edu.cn/traffic-sign), [GTSDB](https://benchmark.ini.rub.de/gtsdb_dataset.html).
+-Fast Training: Download the [pre-trained model]() of SR-YOLOv8. Put it into <pretrained_models>.
 -Run <train.py> to train SR-YOLOv8.
 
 
