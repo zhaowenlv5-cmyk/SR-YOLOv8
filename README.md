@@ -16,9 +16,9 @@ An end-to-end small traffic sign detection framework that incorporates **Super-R
 
 ---
 ## 🏃 Keep updating 🏃:
-- Trained model of SR-YOLOv8 on the CCTSDB2021 has been released ().
+- Trained model of SR-YOLOv8 on the CCTSDB2021 has been released ([CCTSDB2021.pt](https://github.com/zhaowenlv5-cmyk/SR-YOLOv8/releases/tag/pretrained_weight).
 - Training and testing code of SR-YOLOv8 has been released.
-- Configuration file for SR-YOLOv8 has been released ([SRYOLOv8](SRyolov8.yaml)).
+- Configuration file for SR-YOLOv8 has been released ([SRYOLOv8.yaml](SRyolov8.yaml)).
 - Evaluation results of SR-YOLOv8 have been released.
 
 ---
@@ -30,14 +30,12 @@ pip install -r requirements.txt
 ---
 
 ## Usage
--Training: Please download the traffic sign training and testing sets: [CCTSDB2021 ](https://github.com/csust7zhangjm/CCTSDB2021), [TT100k](https://cg.cs.tsinghua.edu.cn/traffic-sign), [GTSDB](https://benchmark.ini.rub.de/gtsdb_dataset.html).
-
--Fast Training: Download the [pre-trained model]() of SR-YOLOv8. Put it into <pretrained_models>.
--Run <train.py> to train SR-YOLOv8.
--we have also released the well-trained SR-YOLOv8 model on the CCTSDB2021 dataset.
-
-
-
+- Training: Please download the traffic sign training and testing sets: [CCTSDB2021 ](https://github.com/csust7zhangjm/CCTSDB2021), [TT100k](https://cg.cs.tsinghua.edu.cn/traffic-sign), [GTSDB](https://benchmark.ini.rub.de/gtsdb_dataset.html).
+- Fast Training: Download the [pre-trained model]() of SR-YOLOv8. Put it into <pretrained_models>.
+- Run <train.py> to train SR-YOLOv8.
+- we have also released the well-trained SR-YOLOv8 model on the CCTSDB2021 dataset ([CCTSDB2021.pt](https://github.com/zhaowenlv5-cmyk/SR-YOLOv8/releases/tag/pretrained_weight).
+- Testing: Testing: Run <test.py> for testing.
+- Evaluating: Please download the evaluation benchmark [review_object_detection_metrics](https://github.com/rafaelpadilla/review_object_detection_metrics) for more accurate evaluation.
 
 ---
 COMPARISON RESULTS ON CCTSDB2021 (%)
@@ -94,8 +92,14 @@ COMPARISON RESULTS ON GTSDB (%)
 |  | YOLO-MS | TPAMI 2025 | 74.90 | 93.80 | 87.20 | 52.00 | 84.10 | 97.90 |
 |  | YOLO-TS | TITS 2025 | 77.44 | 97.57 | 94.18 | 63.07 | 84.10 | 82.00 |
 |  | YOLO-LLTS | TIM 2025 | 74.00 | 96.53 | 92.03 | 63.79 | 79.53 | 69.94 |
-|  | YOLOv8 (baseline) | 2023 | 79.07 | 97.95 | 94.35 | 66.82 | 84.98 | 91.29 |
+|  | YOLOv8 (baseline) | 2023 | <ins>79.07<ins> | <ins>97.95<ins> | <ins>94.35<ins> | <ins>66.82<ins> | <ins>84.98<ins> | <ins>91.29<ins> |
 |  | **SR-YOLOv8s (ours)** | - | **84.35** | **98.76** | **97.74** | **74.94** | **88.10** | **96.28** |
+
+## Contact
+- If you have any questions or suggestions, feel free to contact me.
+- Email:zhaowenlv111@gmail.com;
+
+  ❤️ ❤️ We sincerely appreciate the insightful feedback provided by Editors and Reviewers. ❤️ ❤️
 
 
 
