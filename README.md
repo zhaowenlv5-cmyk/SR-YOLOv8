@@ -18,14 +18,14 @@ An end-to-end small traffic sign detection framework that incorporates **Super-R
 ## 🏃 Keep updating 🏃:
 - Trained model of SR-YOLOv8 on the CCTSDB2021 has been released.
 - Training and testing code of SR-YOLOv8 has been released.
-- Configuration file for SR-YOLOv8 has been released ([config](SR-yolov8.yaml)).
+- Configuration file for SR-YOLOv8 has been released ([SRYOLOv8](SRyolov8.yaml)).
 - Evaluation results of SR-YOLOv8 have been released.
 
 ---
 ## Requirements
 -To install requirements:
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 ## Usage
 -Training: Please download the traffic sign training and testing sets: CCTSDB2021 ([config](https://github.com/csust7zhangjm/CCTSDB2021)), TT100k ([config]((https://cg.cs.tsinghua.edu.cn/traffic-sign)), GTSDB([config](https://benchmark.ini.rub.de/gtsdb_dataset.html)).
