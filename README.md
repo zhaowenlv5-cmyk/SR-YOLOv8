@@ -37,7 +37,8 @@ pip install -r requirements.txt
 - Evaluating: Please download the evaluation benchmark [review_object_detection_metrics](https://github.com/rafaelpadilla/review_object_detection_metrics) for more accurate evaluation.
 
 ---
-COMPARISON RESULTS ON CCTSDB2021 (%)
+## Experiment result
+**COMPARISON RESULTS ON CCTSDB2021 (%)**
 | Dataset | Algorithm | Venue | AP | AP50 | AP75 | APS | APM | APL |
 |---------|-----------|-------|----|------|------|-----|-----|-----|
 | CCTSDB | Faster R-CNN | TPAMI 2016 | 19.50 | 32.80 | 21.00 | 10.20 | 47.30 | 59.30 |
@@ -56,7 +57,7 @@ COMPARISON RESULTS ON CCTSDB2021 (%)
 |  | YOLOv8 (baseline) | 2023 | 44.55 | 70.40 | 50.07 | 40.55 | 59.43 | 38.32 |
 |  | **SR-YOLOv8s (ours)** | - | **56.12** | **84.04** | **67.34** | **54.72** | **63.66** | 38.56 |
 
-COMPARISON RESULTS ON TT100k (%)
+**COMPARISON RESULTS ON TT100k (%)**
 | Dataset | Algorithm | Venue | AP | AP50 | AP75 | APS | APM | APL |
 |---------|-----------|-------|----|------|------|-----|-----|-----|
 | TT100K | Faster R-CNN | TPAMI 2016 | 30.80 | 39.00 | 36.80 | 17.10 | 40.10 | 62.40 |
@@ -75,7 +76,7 @@ COMPARISON RESULTS ON TT100k (%)
 |  | YOLOv8s (baseline) | 2023 | 44.28 | 55.10 | 52.43 | 39.64 | 53.45 | 70.74 |
 |  | **SR-YOLOv8s (ours)** | - | <ins>57.46<ins> | 70.59 | <ins>67.85<ins> | <ins>54.86<ins> | <ins>64.66<ins> | <ins>78.43<ins> |
 
-COMPARISON RESULTS ON GTSDB (%)
+**COMPARISON RESULTS ON GTSDB (%)**
 | Dataset | Algorithm | Venue | AP | AP50 | AP75 | APS | APM | APL |
 |---------|-----------|-------|----|------|------|-----|-----|-----|
 | GTSDB | Faster R-CNN | TPAMI 2016 | 61.60 | 84.50 | 73.80 | 32.50 | 74.10 | 93.10 |
