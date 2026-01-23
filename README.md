@@ -22,7 +22,7 @@ An end-to-end small traffic sign detection framework that incorporates **Super-R
 
 ---
 ## Requirements
--To install requirements:
+- To install requirements:
 ```bash
 pip install -r requirements.txt
 ```
