@@ -355,7 +355,7 @@ class SRDetectionValidator(BaseValidator):
         self.is_coco = isinstance(val, str) and "coco" in val and val.endswith(f"{os.sep}val2017.txt")  # is COCO
         self.class_map = converter.coco80_to_coco91_class() if self.is_coco else list(range(1000))
         self.args.save_json |= self.is_coco and not self.training  # run on final val if training COCO
-        self.names = {0: 'mandatory', 1: 'prohibitory', 2: 'warning'} #CCTSDB #model.names
+        self.names = model.names
         self.nc = len(model.names)
         self.metrics.names = self.names
         self.metrics.plot = self.args.plots
