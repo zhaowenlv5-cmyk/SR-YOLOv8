@@ -17,7 +17,7 @@ An end-to-end small traffic sign detection framework that incorporates **Super-R
 ---
 ## 🏃 Keep updating 🏃:
 - Training and testing code of SR-YOLOv8 has been released.
-- Configuration file for SR-YOLOv8 has been released ([SRYOLOv8.yaml](SRyolov8.yaml)).
+- Configuration file for SR-YOLOv8 has been released ([SRYOLOv8.yaml](SRyolov8.yaml)) and SR-YOLOv8 model code is placed under ultralytics/models/yolo/model.py.
 - Evaluation results of SR-YOLOv8 have been released.
 
 ---
